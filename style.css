@@ -1,0 +1,94 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom,#00FA9A 0%,#20B2AA 100%);
+}
+.wrapper{
+    font-family: verdana;
+    margin: 120px auto;
+    max-width: 500px ;
+    width: 100%;
+    background-color: white;
+    border-radius: 30px;
+    padding: 100px;
+}
+.wrapper header{
+    font-family: verdana;
+    font-size: 30px;
+    font-weight: 600;
+}
+.wrapper.inputField{
+    font-family: verdana;
+    display: flex;
+    height: 45px;
+    width: 100%;
+    margin: 20px 0;
+}
+.inputField input{
+    font-family: verdana;
+    width: 85%;
+    height: 100%;
+    border: 1px solid #ccc;
+    font-size: 17px;
+    border-radius: 3px;
+    padding-left: 15px;
+}
+.inputField button.buttonAdd{
+    font-family: verdana;
+    font-size: 19px;
+    width: 30px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: tomato;
+    color: gold;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.wrapper.todoList{
+max-height: 250px;
+overflow-y: auto;
+}
+.todoList li{
+    font-family: verdana;
+    list-style: none;
+    height: 45px;
+    line-height: 45px;
+    position: relative;
+    background: #f2f2f2;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    padding: 0 15px;
+    right: 40px;
+    top: 0;
+    
+    
+}
+
+.todoList li span{
+    font-family: verdana;
+    position: absolute;
+    right: 0px;
+}
+li input.checkBox{
+    margin-bottom: 90px;
+    position: relative;
+    bottom: -10px;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+ input.checkBox{
+    margin-left: 240px;
+    border-radius: 40px;
+}
+button.clearAll{
+    border-radius: 10px;
+    font-family: verdana;
+    position: relative;
+    margin-left: 150px;
+    
+    
+}
